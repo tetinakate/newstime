@@ -1,0 +1,11 @@
+ul.news-list {
+    color: #000;
+}
+ul.news-list li {
+    margin: 10px 0 20px 0;
+    list-style-type: none;
+}
+
+ul.news-list li p:first-child{
+    color: red;
+}

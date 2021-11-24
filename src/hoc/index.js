@@ -1,0 +1,1 @@
+export { withDataHOC } from "./with-data";
