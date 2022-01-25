@@ -11,8 +11,8 @@ export const Layout = ({ isLoading, data = [], children }) => {
     }
 
     return (
-        <>
+        <div className="container-block">
             { children }
-        </>
+        </div>
     )
 }

@@ -1,0 +1,1 @@
+export { XOGame } from "./xo-game";

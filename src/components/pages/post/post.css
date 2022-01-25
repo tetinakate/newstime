@@ -1,0 +1,15 @@
+.comments-block {
+    margin: 30px 0;
+}
+.comments-block__info{
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #888805;
+}
+.comments-block__comment{
+    padding: 10px 0;
+}
+.comments-block__comment span{
+    font-weight: bold;
+}

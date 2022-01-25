@@ -27,9 +27,6 @@ console.log(mail, name)
                 setName(target.value);
             break;
         }
-        // console.log(target.value);
-        // console.log(name);
-        // console.log(target);
     }
 
     return(

@@ -1,0 +1,27 @@
+.random-post-block{
+    margin: 20px 0;
+    border: 1px solid #888805;
+    padding: 10px;
+    min-height: 250px;
+}
+.random-post-block h2{
+    color: #888805;
+}
+.random-post-block__container{
+    margin: 30px 0;
+    min-height: 90px;
+}
+.random-post-block__container span {
+    font-weight: bold;
+}
+.random-post-block .update-post {
+    cursor: pointer;
+    color: #515102;
+    background: #f5f5dc;
+    border: 1px solid #888805;
+    border-radius: 3px;
+    padding: 2px 10px;
+}
+.random-post-block .update-post:hover{
+    background: #dcdcc5;
+}

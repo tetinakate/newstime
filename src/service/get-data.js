@@ -1,6 +1,15 @@
 import axios from "axios";
 import isArray from "lodash/isArray";
 
+export const loadData = async (url) => {
+    const data = await getData(url)
+
+    return {
+        data,
+        isLoading: false 
+    }
+}
+
 export const getData = async (url) => {
     try {
         if (isArray(url)) {

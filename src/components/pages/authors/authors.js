@@ -5,13 +5,15 @@ import { API } from "../../../constants";
 import { Layout } from "../../../containers/layout";
 import { useAxios } from "../../../hooks";
 
+import "./authors.css";
+
 export const Authors = () => {
     const { data, isLoading } = useAxios({ url: API.users() })
 
     return(
         <Layout data={data} isLoading={isLoading}>
             <div className="authors">
-                <h1>Author</h1>
+                <h1>Авторы</h1>
                 <ul>
                     {
                         data.map(author => {

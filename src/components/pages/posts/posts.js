@@ -50,7 +50,7 @@ export const Posts = () => {
     return(
         <Layout isLoading={isLoading} data={posts}>
             <h1>Posts</h1>
-            <ul className='news-list'>
+            <ul className='posts-list'>
             {
                 posts.map(item => {
                     return(

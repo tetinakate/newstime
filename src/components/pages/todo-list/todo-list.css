@@ -1,0 +1,12 @@
+.todo-list ul li {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+}
+.todo-list ul{
+    padding-left: 0;
+}

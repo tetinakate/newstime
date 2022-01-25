@@ -1,0 +1,7 @@
+.delete{
+    color: #ff0000;
+    cursor: pointer;
+}
+.todo-list ul li input:checked + span{
+    text-decoration: line-through;
+}

@@ -10,6 +10,11 @@ import { Main } from "../pages/main";
 import { Authors } from "../pages/authors";
 import { Author } from "../pages/author";
 import { NotFoundPage } from "../pages/404";
+import { TodoList } from "../pages/todo-list";
+import { XOGame } from "../pages/xo-game";
+import { Calculator } from "../pages/calculator";
+import { Footer } from "../footer";
+import { Slider } from "../pages/slider";
 
 
 const App = () => {
@@ -24,9 +29,14 @@ const App = () => {
             <Route path="/posts/:id" element={ <Post />} />
             <Route path="/authors" exact element={ <Authors />} />
             <Route path="/authors/:id" element={ <Author />} />
+            <Route path="/todo-list" element={ <TodoList />} />
+            <Route path="/xo-game" element={ <XOGame />} />
+            <Route path="/calculator" element={ <Calculator />} />
+            <Route path="/slider" element={ <Slider />} />
             <Route path="*" element={ <NotFoundPage />} />
 
           </Switch>
+          <Footer />
         </Router>
 
         {/* <Counter /> */}

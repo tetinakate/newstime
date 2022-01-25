@@ -1,7 +1,14 @@
 .App {
-  min-height: 100vh;
   position: relative;
   width: 70vw;
+  height: auto;
+  min-height: 100vh;
   margin: 0 auto;
   border: 2px solid beige;
+  display: grid;
+  grid-template-rows: 100px minmax(100px, 1fr) 150px;
+  gap: 20px;
+}
+.container-block{
+  padding: 20px 20px;
 }
