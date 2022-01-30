@@ -10,14 +10,17 @@ export const About = () => {
             <p>Здесь я практикую свои навыки по JavaScript и React!</p>
             <p>Буду рада обратной связи!</p>
             <FeedbackForm />
-            <div className="wrapper">
-                <div className="item">A</div>
-                <div className="item">B</div>
-                <div className="item">C</div>
-                <div className="item">D</div>
-                <div className="item">E</div>
-                {/* <div className="item">F</div> */}
-            </div>
+
+            {/* <div className="wrapper">
+                    <div className="item">A</div>
+                    <div className="item">B</div>
+                    <div className="item">C</div>
+                    <div className="item">D</div>
+                    <div className="item">E</div>
+                    <div className="item">F</div>
+                </div> 
+            */}
         </div>
+        
     )
 }

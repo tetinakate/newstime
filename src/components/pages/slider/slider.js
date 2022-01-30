@@ -1,18 +1,20 @@
 import React from "react";
-
 import images from "../../../../src/assets/images/slider";
+import { Slide } from "./slide";
 
 import "./slider.css";
-// TODO: implement me
-export const Slider = () => {
-    console.log(images);
 
+export const Slider = () => {
+    
     return(
-        <div className="container-block">
-            <p><img  src={images[1].src}/></p>
+        <div className="container-block slider">
             {
-                images.map( ({ id, src, alt }) => {
-                    return <div className="slider" style={{backgroundImage:`url(${src})`}} key={alt} >{id}</div>
+                images.map(({ id, src, alt}) => {
+                    return <Slide
+                        key={id}
+                        src={src}
+                        alt={alt}
+                    />
                 })
             }
         </div>
